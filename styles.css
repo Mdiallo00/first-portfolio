@@ -1,0 +1,583 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#030811;
+    
+}
+
+     /**********NAVIGATION BAR**********************/
+
+.container {
+    display: flex;
+    /* border: 1px solid white; */
+    justify-content: space-around;
+    align-items: center; 
+    border-bottom: 1px solid rgba(233, 220, 236, 0.356);
+    height: 59px;
+}     
+ a {  /* link is associated to the resume button*/
+    text-decoration: none;
+    color: white;
+    
+}
+
+.my-name {
+    color: white;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 35px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    
+}
+
+.container .links{
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+
+}
+
+.container * {
+    height: 100%;
+}
+
+ul {
+  /* border: 1px solid white; */
+  width: 30%;
+  margin-right: 48px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 400;
+    
+}
+#resume{
+    color: white;
+    background-color: rgb(13, 189, 248);
+    width: 95px;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    
+
+}
+
+
+/*ABOUT ME*/
+
+.about-me {
+    color: white;
+    display: block;
+    position: relative;
+    top: 65px;
+    left: 30%;
+    /* border: 1px solid white; */
+    width: 600px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+.name-about-me {
+    margin-right: 15px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+.photo {
+    background-color: lightgray;
+    width: 150px;
+    border-radius: 50% 50%;
+    margin-left:35%;
+    overflow: hidden;
+    border: 1px solid white;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+img {
+    overflow: hidden;
+    text-align: center;
+}
+
+#name-second {
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+.college {
+    text-align: center;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    /* border: 1px solid white; */
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
+.major {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 15px;
+    /* border: 1px solid white; */
+}
+
+
+
+/* Skills SECTIONS */
+#skills-header {
+    color: white;
+    margin-top: 80px;
+    margin-left: 300px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
+.skills-container {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    width: 56%;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px, 1fr));
+    grid-gap: 5px;
+    text-align: center;
+    
+}
+.tech-stack {
+    background-color:rgb(38, 61, 82);
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 6px;
+}
+
+                        /* PROJECTS SECTION */
+
+.projects-container {
+    
+    color: white;
+    width: 56%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    
+
+}
+
+.project-title {
+    margin-top: 6px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+.project-description {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 100;
+    font-size:smaller;
+    padding-bottom: 36px;
+    /* border: 1px solid wheat; */
+    margin-bottom: 36px;
+    /* position: absolute;
+    bottom: -60px; */
+}
+
+.projects-header {
+    color: white;
+    margin-left: 300px;
+}
+
+.projects-container img {
+    border-radius: 12px;
+    
+}
+
+            /*CONTACT ME FORM  */
+
+#contact-me {
+    color: white;
+    margin-left: 300px;
+    margin-top: -45px;
+    /* border: 1px solid white; */
+}
+
+form {
+    display: block;
+    /* border: 1px solid white; */
+    width: 500px;
+    color: white;
+    height: 400px;
+    margin-left: 300px;
+    box-sizing: border-box;
+    box-shadow: none;
+    
+}
+.reach-out {
+    background-color: rgb(38, 61, 82);
+    margin-top: 10px;
+    
+}
+textarea {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    color: white;
+    /* font-size:large; */
+    box-shadow: none;
+
+}
+
+::placeholder {
+  color: #fbfffc;
+  font-size: 18px;
+  opacity: 1;
+}
+.label {
+  white-space: pre-wrap;
+}
+#email {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    /* font-size: large; */
+}
+.title {
+    margin-top: 10px;
+}
+
+#message-me-button {
+    color: white;
+    background-color: rgb(13, 189, 248);
+    width: 95px;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
+input[type="text"]{
+    font-size: 18px;
+    color: white;
+}
+
+/* My socials */
+
+.my-socials {
+    position: relative;
+    left: 50%;
+}
+.my-socials > i {
+    background-color: rgba(255, 255, 255, 0.116);
+    /* height: 30px;
+    width: 30px; */
+    margin-left: 5px;
+}
+
+footer > p {
+    color: white;
+    position: relative;
+    left: 41%;
+}
+
+
+
+
+                        /* 
+
+                        MEDIA QUERY FOR MOBILE
+                        FOR MOBLE SCREEN LESS THAN OR EQUAL 600PX
+                        
+                        */
+
+
+
+
+
+@media (max-width: 600px)
+{
+    body {
+        background-color:  #161957;
+        
+    }
+    /* navigation bar */
+    .container {
+        display: block;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        /* border: 1px solid white; */
+    }
+
+    .my-name {
+        font-size: large;
+    }
+    ul {
+        display: block;
+        width: auto;
+        /* height: 55px; */
+        text-align: center;
+    }
+
+    .links {
+        display: block;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        padding-top: 3px;
+        /* border: 1px solid white; */
+    }
+
+    #resume {
+        margin-top: 16px;
+        background-color: rgb(13, 189, 248);
+    }
+    #resume > a {
+        background-color: rgb(13, 189, 248);
+    }
+    a:hover {
+        background-color:none;
+    }
+    /* a:visited {
+        color: red;
+    } */
+
+     /* about me: name , university and major */
+
+    .about-me {
+    color: white;
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 65px;
+    left: -9%;
+    /* border: 1px solid white; */
+    width: 600px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    }
+
+
+    /* skills secton */
+
+    #skills-header {
+    margin-top: 80px;
+    margin-left: 105px;
+    }
+    /* projects section */
+    .projects-header {
+    color: white;
+    margin-left: 225px;
+    }
+
+    .projects-container {
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        
+    }
+    .projects-stack {
+        margin-top: -45px;
+    }
+
+    /* contact me form */
+    #contact-me {
+    /* color: white; */
+    margin-left: 100px;
+    margin-top: -45px;
+    /* border: 1px solid white; */
+    }
+    
+    form {
+    display: block;
+    /* border: 1px solid white; */
+    width: 400px;
+    color: white;
+    height: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: none;
+    }
+
+
+    footer {
+        margin-left: -135px;
+    }
+
+    footer > p {
+        font-size: small;
+    }
+
+
+}
+
+
+                
+
+/* 
+
+TABLET SCREENS BETWEEN 768 AND 1023 PIXELS  
+
+*/
+
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    /* navigation bar */
+    .container {
+        width: auto;
+         display: flex;
+        /* border: 1px solid white; */
+        justify-content: space-around;
+        align-items: center; 
+        border-bottom: 1px solid rgba(233, 220, 236, 0.356);
+        height: 59px;
+
+    }
+    .my-name {
+    color: white;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-left: 35px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 300;
+    font-size: large;
+    
+}
+
+ul {
+  /* border: 1px solid white; */
+  width: 50%;
+  margin-right: 45px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 400;
+  /* border: 1px solid red; */
+    
+}
+ul > links {
+    margin-right: 35px;
+}
+
+/* About me section */
+.about-me {
+    color: white;
+    display: block;
+    position: relative;
+    top: 65px;
+    left: 12%;
+    /* border: 1px solid white; */
+    width: 600px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
+/* about me photo */
+.photo {
+    background-color: lightgray;
+    width: 150px;
+    border-radius: 50% 50%;
+    margin-left:38%;
+    overflow: hidden;
+    border: 1px solid white;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+    /* Skills section */
+    #skills-header {
+    color: white;
+    margin-top: 80px;
+    margin-left: 5px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+.skills-container {
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    width: auto;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px, 1fr));
+    grid-gap: 5px;
+    text-align: center;
+    
+}
+
+/* projects section */
+
+.projects-container {
+    
+    color: white;
+    width: auto;
+    /* margin-left: 2px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 5px;
+    
+
+}
+
+.projects-header {
+    color: white;
+    margin-left: 5px;
+}
+
+/* Contact me section */
+
+#contact-me {
+    color: white;
+    margin-left: 125px;
+    margin-top: -45px;
+    /* border: 1px solid white; */
+}
+
+form {
+    display: block;
+    /* border: 1px solid white; */
+    width: 500px;
+    color: white;
+    height: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: none;
+    
+}
+
+/* my socials */
+.my-socials {
+    position: relative;
+    left: 45%;
+}
+
+/* footer */
+
+footer > p {
+    
+    position: relative;
+    left: 29%;
+}
+
+
+}
+
+
+
+            /* TABLET SCREEN MAX-WIDTH: 1023PX */
+

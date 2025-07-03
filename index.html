@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+     <!--navigation bar-->
+
+     <div class="container">
+        <h2 class="my-name">Mamadou Bhoye Diallo</h2>
+        <ul>
+            <a class="links" href="#about-me" class="About">About Me</a>
+            <a class="links" href="#skills">Skills</a>
+            <a class="links" href="#projects">Projects</a>
+            <a class="links" href="#contact-me">Contact</a>
+            <button id="resume"><a href="./5-lettersWordlist.txt" download="newfilename.txt">Resume</a></button>
+        </ul>
+     </div>
+
+                                      <!--About ME Section-->
+     <div class="about-me" id="about-me">
+       <div class="photo"> 
+            <img src="./photo.jpg" alt="my-photo" width="120px" hight="120px">
+       </div>
+       <h3 class="name-about-me" id="name-second">Mamadou B. Diallo</h3>
+       <p class="major">Computer Science Student </p>
+       <p class="college">Georgia State University  Atlanta, Ga</p>
+     </div> 
+     
+                                      <!-- Skills section -->
+      <h2 id="skills-header" id="skills">Skills</h2>
+      <div class="skills-container">
+        <div class="tech-stack" id="java">JAVA</div>
+        <div class="tech-stack" id="git">GIT</div>
+        <div class="tech-stack" id="html">HTML</div>
+        <div class="tech-stack" id="css">CSS</div>
+        <div class="tech-stack" id="javascript">Javascript</div>
+      </div>
+
+                                        <!-- PROJECTS -->
+        <h2 class="projects-header" id="projects">Projects</h2>
+        <div class="projects-container">
+            <div class="projects-stack">
+              <img src="./project1.webp" alt="project1" width="250px" height="250px">
+              <h3 class="project-title">Employee Management system</h3>
+              <p class="project-description">A software that helps manage employees paystubs</p>
+            </div>
+            <div class="projects-stack">
+              <img src="./project2.webp" alt="project2" width="250px" height="250px">
+              <h3 class="project-title">Barbershop Website</h3>
+              <p class="project-description">A barbershop website portfolio</p>
+            </div>
+            <div class="projects-stack">
+              <img src="./project3.webp" alt="project3" width="250px" height="250px">
+              <h3 class="project-title">Project3 not ready</h3>
+              <p class="project-description">Project not ready</p>
+
+            </div>
+
+        </div>
+
+        <!-- CONTACT ME FORM -->
+        <h2 id="contact-me">Contact Me</h3>
+        <form method="POST" action="https://formsubmit.co/bhoye00@yahoo.com">
+          <label for="email" class="title">Email</label> <br>
+
+          <input class="reach-out" type="email" id="email" name="email" placeholder=" your.email@example.com" required> <br>
+
+          <label for="Message" class="title">Message</label> <br>
+          <textarea class="reach-out" type="text" name="textarea" id="textarea" width="500px" height="300px" placeholder="your message" maxlength="600"></textarea>
+          <button  type="submit" id="message-me-button">Send</button>
+        </form>
+
+        <div class="my-socials">
+          <a href="https://www.linkedin.com/in/mamadou-bhoye-diallo-918430139/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/Mdiallo00" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+        </div>
+
+        <footer>
+          <p>@2025 Mamadou Bhoye Diallo. All rights reserved.</p>
+        </footer>
+</body>
+</html>
